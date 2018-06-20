@@ -6,7 +6,7 @@
 
 * 使用Vue2进行的仿手机QQ的webapp的制作
 
-* 项目地址 [](https://github.com/jiangqizheng/vue-MiniQQ)
+* 项目地址 https://github.com/jiangqizheng/vue-MiniQQ
 
 ## 项目已实现功能
 
