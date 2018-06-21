@@ -21,3 +21,5 @@
 ##如何运行从GitHub下载的项目
 
 * https://blog.csdn.net/webFront/article/details/75092713
+
+* 此处的npm install是根据package.json文件，安装所有包在node_modules中
