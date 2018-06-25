@@ -4,8 +4,8 @@
   * [配置项目环境和工具](jiao-shou-jia-gong-ju.md)
   * [使用脚手架工具构建项目](shi-yong-jiao-shou-jia-gong-ju-gou-jian-xiang-mu.md)
 * [项目开始](xiang-mu-kai-shi.md)
+  * [项目托管](xiang-mu-tuo-guan.md)
   * [业务逻辑分析](ye-wu-luo-ji-fen-xi.md)
   * [index页面-meta标签](indexye-mian-meta-biao-qian.md)
-  * [index页面-link标签](indexye-9762-zheng-wen.md)
   * [入口函数main.js](ru-kou-han-shu-main-js.md)
 
