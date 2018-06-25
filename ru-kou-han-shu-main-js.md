@@ -28,12 +28,12 @@ Vue.use安装
 **注意header等mint-ui的组件**
 需要再单独引入组件、安装组件
 然后在App.vue中放入header
-```
-import { Header } from 'mint-ui'
-Vue.component(Header.name, Header)
-<mt-header fixed title="冯慧敏的vue项目"></mt-header>
-```
-#制作tabbar
+`import { Header } from 'mint-ui'`
+`Vue.component(Header.name, Header)`
+`<mt-header fixed title="冯慧敏的vue项目"></mt-header>`
+
+##制作tabbar
+
 <使用MUI
 1)从GitHub上下载压缩包，解压
 2)将mui的dist文件夹拷贝到src/lib文件夹下，更改名字为miu
