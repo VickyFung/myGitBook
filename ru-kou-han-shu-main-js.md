@@ -42,6 +42,7 @@ b.node_modules存放的是npm安装的包
 3)import ‘./lib/mui/css/mui.min.css’
 在examples文件夹中找到自己需要的代码片段，拷贝过来放到html中即可
 
+使用时把a标签换成router-link，把href换成to
 **注意小图标的问题**
 
 tabbar图标高亮
