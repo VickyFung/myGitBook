@@ -31,6 +31,7 @@ Vue.use安装
 import { Header } from 'mint-ui'
 Vue.component(Header.name, Header)
 `<mt-header fixed title="冯慧敏的vue项目"></mt-header>`
+注意header被fixed了，脱标了，要给appContainer加一个上padding
 
 ##制作tabbar
 
@@ -46,6 +47,7 @@ b.node_modules存放的是npm安装的包
 **注意小图标的问题**
 
 tabbar图标高亮
+删除图标的 mui-active类
 在router.js中（我们这个项目在router文件夹下的index.js中）
 设置linkActiveClass属性值为 'mui-active'  //覆盖默认的路由高亮类，默认的类是router-link-active
 
