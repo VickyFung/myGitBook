@@ -42,9 +42,11 @@ b.node_modules存放的是npm安装的包
 3)import ‘./lib/mui/css/mui.min.css’
 在examples文件夹中找到自己需要的代码片段，拷贝过来放到html中即可
 
-使用时把a标签换成router-link，把href换成to
+使用时把a标签换成router-link，把href换成to，把#换成/
 **注意小图标的问题**
 
 tabbar图标高亮
-
+删除图标标签中的mui-active类
+在router.js中（我们这个项目在router文件夹下的index.js中）
+设置linkActiveClass属性值为 'mui-active'  //覆盖默认的路由高亮类，默认的类是router-link-active
 
