@@ -25,13 +25,25 @@ npm装包
 import引包
 Vue.use安装
 
-**注意需要再单独引入组件、安装组件**
-
-`import { Header } from 'mint-ui'Vue.component(Header.name, Header)`
+**注意header等mint-ui的组件**
+需要再单独引入组件、安装组件
 然后在App.vue中放入header
 ```
+import { Header } from 'mint-ui'
+Vue.component(Header.name, Header)
 <mt-header fixed title="冯慧敏的vue项目"></mt-header>
 ```
+#制作tabbar
+<使用MUI
+1)从GitHub上下载压缩包，解压
+2)将mui的dist文件夹拷贝到src/lib文件夹下，更改名字为miu
+a.src/lib下面存放手动拷贝过来的包
+b.node_modules存放的是npm安装的包
+3)import ‘./lib/mui/css/mui.min.css’
+在examples文件夹中找到自己需要的代码片段，拷贝过来放到html中即可
 
+**注意小图标的问题**
+
+tabbar图标高亮
 
 
