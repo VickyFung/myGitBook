@@ -46,7 +46,10 @@ b.node_modules存放的是npm安装的包
 **注意小图标的问题**
 
 tabbar图标高亮
-删除图标标签中的mui-active类
 在router.js中（我们这个项目在router文件夹下的index.js中）
 设置linkActiveClass属性值为 'mui-active'  //覆盖默认的路由高亮类，默认的类是router-link-active
+
+tabbar路由链接实现
+创建四个组件
+然后在router.js中导入四个组件，并定义路由规则
 
