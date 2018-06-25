@@ -24,11 +24,14 @@ name: 'App'
 npm装包
 import引包
 Vue.use安装
+
 **注意需要再单独引入组件、安装组件**
 
+`import { Header } from 'mint-ui'Vue.component(Header.name, Header)`
+然后在App.vue中放入header
 ```
-import { Header } from 'mint-ui'
-Vue.component(Header.name, Header);
+<mt-header fixed title="冯慧敏的vue项目"></mt-header>
 ```
+
 
 
