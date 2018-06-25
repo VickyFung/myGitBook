@@ -28,8 +28,8 @@ Vue.use安装
 **注意header等mint-ui的组件**
 需要再单独引入组件、安装组件
 然后在App.vue中放入header
-`import { Header } from 'mint-ui'`
-`Vue.component(Header.name, Header)`
+import { Header } from 'mint-ui'
+Vue.component(Header.name, Header)
 `<mt-header fixed title="冯慧敏的vue项目"></mt-header>`
 
 ##制作tabbar
