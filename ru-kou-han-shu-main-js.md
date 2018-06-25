@@ -35,7 +35,7 @@ Vue.component(Header.name, Header)
 
 ##制作tabbar
 
-<使用MUI
+使用MUI
 1)从GitHub上下载压缩包，解压
 2)将mui的dist文件夹拷贝到src/lib文件夹下，更改名字为miu
 a.src/lib下面存放手动拷贝过来的包

@@ -7,5 +7,5 @@
   * [项目托管](xiang-mu-tuo-guan.md)
   * [业务逻辑分析](ye-wu-luo-ji-fen-xi.md)
   * [index页面-meta标签](indexye-mian-meta-biao-qian.md)
-  * [入口函数main.js](ru-kou-han-shu-main-js.md)
+  * [首页制作](ru-kou-han-shu-main-js.md)
 
