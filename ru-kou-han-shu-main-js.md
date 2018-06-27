@@ -90,5 +90,8 @@ server.listen(3000,function(){
 	console.log('服务器启动成功了，可以通过http://xxx:3000来进行访问了')
 })```
 
+- 使用ngrok http 8080，将本机映射到外网，模拟服务器
 - 然后nodemon main.js即可
 - 注意读取文件中的目录的绝对路径
+- 注意项目的端口号不能和服务器端口号一样
+ + 通过更改项目的config文件夹下的index.js中的port:8080来更改项目的端口号
