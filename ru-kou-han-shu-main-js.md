@@ -119,3 +119,5 @@ server.listen(3000,function(){
 - PHP端修改header
  + 在php接口脚本中加入以下两句
  + header("Access-Control-Allow-Origin:*")//允许所有源来访问
+ + header("Access-Control-Allow-Method:POST,GET")//允许访问的方式
+
