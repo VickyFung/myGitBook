@@ -4,7 +4,7 @@
 
 * 在准备放项目文件的目录下执行`git bash`
 
-* 再执行`vue init webpack HMchat`初始化项目，HMchat是项目文件夹名称
+* 再执行`vue init webpack HMchat`初始化项目，HMchat是项目文件夹名称。初始化的过程中会有很多需要选择y/n的地方，具体参见下面的链接
 
 * `cd HMchat`
 

@@ -20,12 +20,12 @@ name: 'App'
 ![](/assets/搜狗截图20180625185410.png)
 
 ##制作header
-使用Mint-UI
+**1 使用Mint-UI的header组件**
 npm装包
 import引包
 Vue.use安装
 
-**注意header等mint-ui的组件**
+**2 注意header等mint-ui的组件**
 需要再单独引入组件、安装组件
 然后在App.vue中放入header
 import { Header } from 'mint-ui'
@@ -35,7 +35,7 @@ Vue.component(Header.name, Header)
 
 ##制作tabbar
 
-使用MUI
+**1 使用MUI模板**
 1)从GitHub上下载压缩包，解压
 2)将mui的dist文件夹拷贝到src/lib文件夹下，更改名字为miu
 a.src/lib下面存放手动拷贝过来的包
@@ -44,14 +44,23 @@ b.node_modules存放的是npm安装的包
 在examples文件夹中找到自己需要的代码片段，拷贝过来放到html中即可
 
 使用时把a标签换成router-link，把href换成to，把#换成/
-**注意小图标的问题**
 
-tabbar图标高亮
+**2 注意小图标的问题**
+
+**3 tabbar图标高亮**
 删除图标的 mui-active类
 在router.js中（我们这个项目在router文件夹下的index.js中）
 设置linkActiveClass属性值为 'mui-active'  //覆盖默认的路由高亮类，默认的类是router-link-active
 
-tabbar路由链接实现
+**4 tabbar路由链接实现**
 创建四个组件
 然后在router.js中导入四个组件，并定义路由规则
+
+##制作轮播图
+**1 轮播图组件**
+使用mint-ui的swiper组件
+
+注意swiper组件默认高度是0
+**2 轮播图数据获取**
+用vue-resource
 
