@@ -94,7 +94,7 @@ server.listen(3000,function(){
 - 然后nodemon main.js即可
 - 注意读取文件中的目录的绝对路径
 - 注意项目的端口号不能和服务器端口号一样
- + 通过更改项目的config文件夹下的index.js中的port:4040来更改项目的端口号
+ + 通过更改项目的config文件夹下的index.js中的port:4040来更改项目的端口号，并且package.json中的dev要保持一致
  + 这里需要注意，如果你修改后的端口仍然是被其他占用的，name他会给你默认改回8080！！！
 
 
