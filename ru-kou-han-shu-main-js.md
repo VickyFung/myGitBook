@@ -62,5 +62,33 @@ b.node_modules存放的是npm安装的包
 
 注意swiper组件默认高度是0
 **2 轮播图数据获取**
-用vue-resource
+- 用vue-resource
+ + npm装包
+ + import导入
+ + Vue.use安装
+- 轮播图模拟从服务器拿数据:本地创建一个main.js文件
 
+```
+var http = require('http')
+var fs = require('fs')
+var server = http.createServer()
+
+server.on('request',function(req,res){
+  var url = req.url
+  if(url === '/'){
+	fs.readFile('D:/web/program20180620/myServer/index.html',function(err,data){
+			if(err){
+				return res.end('not found')
+			}
+			res.end(data)
+		})
+		console.log('收到客户端的主页请求了')
+	}
+	console.log('收到客户端外面的请求了')
+})
+server.listen(3000,function(){
+	console.log('服务器启动成功了，可以通过http://xxx:3000来进行访问了')
+})```
+
+- 然后nodemon main.js即可
+- 注意读取文件中的目录的绝对路径
