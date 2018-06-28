@@ -97,6 +97,19 @@ server.listen(3000,function(){
  + 通过更改项目的config文件夹下的index.js中的port:4040来更改项目的端口号，并且package.json中的dev要保持一致
  + 这里需要注意，如果你修改后的端口仍然是被其他占用的，name他会给你默认改回8080！！！
 
+**3 轮播图数据渲染**
+- 首先获取回来的数据是字符串格式，需要JSON.parse()转换成对象，保存到data中
+- 然后在轮播图组件中用v-for+key的方式循环渲染
 
-- telnet怎么使用
+**4 轮播图样式**
+- 安装样式loader，并配置
+	- css需要的loader：style-loader css-loader
+	- less需要的：style-loader css-loader less-loader
+	- sass和scss同理，有的可能会需要依赖项，按提示安装即可
+- 在webpack-dev-config中配置loader
+
+## 九宫格制作
+- 使用mui的grid模板
+- 注意更改样式的时候，最好直接复制样式本身的类
+## telnet怎么使用
 

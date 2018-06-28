@@ -19,3 +19,5 @@
  + header("Access-Control-Allow-Origin:*")//允许所有源来访问
  + header("Access-Control-Allow-Method:POST,GET")//允许访问的方式
 
+
+具体参见如何[配置跨域代理](https://segmentfault.com/a/1190000011007043)
