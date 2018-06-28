@@ -8,6 +8,7 @@
   * [业务逻辑分析](ye-wu-luo-ji-fen-xi.md)
   * [index页面-meta标签](indexye-mian-meta-biao-qian.md)
   * [首页制作](ru-kou-han-shu-main-js.md)
+  * [组件切换动画](zu-jian-qie-huan-dong-hua.md)
 * 过程知识
   * [跨域问题](kua-yu-wen-ti.md)
 
