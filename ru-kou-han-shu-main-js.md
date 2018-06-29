@@ -106,7 +106,7 @@ server.listen(3000,function(){
 	- css需要的loader：style-loader css-loader
 	- less需要的：style-loader css-loader less-loader
 	- sass和scss同理，有的可能会需要依赖项，按提示安装即可
-- 在webpack-dev-config中配置loader
+- 在webpack.config.js中配置loader
 
 ## 九宫格制作
 **1 九宫格结构和样式**
