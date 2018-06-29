@@ -12,4 +12,5 @@
   * [新闻页面](xin-wen-lie-biao-ye-mian.md)
 * 过程知识
   * [跨域问题](kua-yu-wen-ti.md)
+  * [从服务器读取数据的格式](cong-fu-wu-qi-du-qu-shu-ju-de-ge-shi.md)
 
