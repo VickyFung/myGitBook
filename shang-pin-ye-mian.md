@@ -10,7 +10,7 @@
 **2 编程式导航的几种方式**
 - this.$router.push(‘home’+id)
 - this.$router.push(path:’home’+id)
-- this.$router.push({name:”goodsinfo”,params:{id}})
+- this.$router.push({name:”组件名字”,params:{id}})
 
 #点击跳转指定页面
 **1 上级页面传入id到url**
