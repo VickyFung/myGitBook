@@ -10,7 +10,7 @@
 **2 如何移除**
 
 - 装包：`npm i babel-plugin-transform-remove-strict-mode`
-- 配置：
+- 配置（三种方式）：
     + .babelrc
     + vue-cli
         - `$ babel --plugins transform-remove-strict-mode script.js`
