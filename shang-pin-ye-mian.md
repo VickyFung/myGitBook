@@ -53,5 +53,11 @@ getGoodsDetail(id){
 	margin:auto;
 }
 ```
+
+#商品详情页面
+**懒加载效果**
+- 需要用到mint-ui的Lazyload
+- `<img v-lazr="http" >`
+- `img[lazy=”loading”]{}`设置懒加载转圈圈图标的样式
  
  
