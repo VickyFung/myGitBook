@@ -22,5 +22,5 @@
       * 发送后端请求的几种方式
     * JS相关
       * [严格模式](yan-ge-mo-shi.md)
-      * ES6 模板字符串
+      * [ES6 模板字符串](es6-mo-ban-zi-fu-chuan.md)
 
