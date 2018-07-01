@@ -51,6 +51,7 @@
 - 在项目根目录执行git bash here
 - 和远程仓库关联：`git remote add origin https://github.com/用户名/远程仓库名.git`
 - 项目上传：`git push -u origin master`
+- 上传后即可在GitHub上看到自己的项目
 
 
 
