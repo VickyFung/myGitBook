@@ -15,3 +15,6 @@ e)git add README.md
 f)git commit -m “”
 g)git remote add origin https://……
 git push -u origin master
+
+##如果push的时候有版本冲突
+[解决办法](https://www.cnblogs.com/code-changeworld/p/4779145.html)
