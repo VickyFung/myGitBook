@@ -1,61 +1,25 @@
-# 创建本地项目
+# HMchat项目笔记
 
-**使用脚手架工具创建项目**
+##项目描述
 
-参考推荐：[使用vue-cli构建项目
-](https://www.jianshu.com/p/1626b8643676)
+* 冯慧敏的第一个项目
 
+* 使用Vue2进行的仿手机QQ的webapp的制作
 
-#本地项目上传到GitHub之前
+* 项目地址 https://github.com/jiangqizheng/vue-MiniQQ
 
-**1 git init之前的准备**
-- README.md文件：对项目的简单说明文件，不可缺少
-- .ignore：指定在项目上传时忽略的文件，如图表示忽略node_modules文件夹，因为该文件夹较大，不推荐上传，如果丢失我们只需要再次安装就可以了
-![](/assets/搜狗截图20180701143946.png)
+## 项目已实现功能
 
-**2 初始化（在git bash中执行）**
-- git init：在项目根目录生成一个.git文件夹
-- git status：查看文件状态
-- git add .：添加到跟踪（暂存区）
-- git commit -m “这里写你此次提交的备注信息”：提交到本地仓库
-- git push：提交到远程仓库（和远程仓库建立关联之后可以提交）
+* 对话功能——想着既然是QQ总要能进行对话交流，所以在项目中接入了图灵聊天机器人，可以与列表中的每个人物进行对话。
 
+* 左滑删除——左滑删除相关消息。
 
+* 搜索页面——点击右上角搜索按钮，能够进入搜索页面，输入对应的单词或者数字，动态查找好友。
 
+* 项目中数据流动由vuex进行控制
 
+##如何运行从GitHub下载的项目
 
-# GitHub注册和仓库创建
+* https://blog.csdn.net/webFront/article/details/75092713
 
-**1 注册**
-
-略
-
-**2 设置公钥**
-- 在本地电脑账户的.ssh文件夹中查看公钥(id_rsa.pub)
-![](/assets/搜狗截图20180701145804.png)
-- 如果没有.ssh文件夹，需要重新生成公钥：
- + 在cmd终端输入`ssh-keygen -t rsa`即可生成
-
-**3 创建仓库**
-
-![](/assets/创建远程仓库.png)
-
-**4 全局配置用户身份**
-
-- `git config --global user.name "username"`
-- `git config --global user.email "youremail@example.com"`
-
-
-**5 和本地项目关联**
-
-- 在项目根目录执行git bash here
-- 和远程仓库关联：`git remote add origin https://github.com/用户名/远程仓库名.git`
-- 项目上传：`git push -u origin master`
-- 上传后即可在GitHub上看到自己的项目
-
-
-
-
-
-
-
+* 此处的npm install是根据package.json文件，安装所有包在node_modules中
