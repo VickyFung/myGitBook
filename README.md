@@ -4,9 +4,9 @@
 
 * 冯慧敏的第一个项目
 
-* 使用Vue2进行的仿手机QQ的webapp的制作
+* 仿xxxxx？？
 
-* 项目地址 https://github.com/jiangqizheng/vue-MiniQQ
+* 项目地址 
 
 ## 项目已实现功能
 
