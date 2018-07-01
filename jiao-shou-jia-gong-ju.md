@@ -19,7 +19,7 @@
 * 安装成功后即可使用cnpm包管理工具了
 
 **安装webpack**
-* `npm i webpack -g`
+* `npm i webpack -D`
 
 **安装vue-cli**
 * `npm i vue-cli -g`
