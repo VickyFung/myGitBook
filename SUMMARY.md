@@ -20,7 +20,8 @@
       * [跨域问题](kua-yu-wen-ti.md)
       * [从服务器读取数据的格式](cong-fu-wu-qi-du-qu-shu-ju-de-ge-shi.md)
       * [发送后端请求的几种方式](fa-song-hou-duan-qing-qiu-de-ji-zhong-fang-shi.md)
-    * JS相关
+    * [JS相关](guo-cheng-zhi-shi/jsxiang-guan.md)
       * [严格模式](yan-ge-mo-shi.md)
       * [ES6 模板字符串](es6-mo-ban-zi-fu-chuan.md)
+      * var const let的区别
 
