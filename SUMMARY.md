@@ -15,6 +15,7 @@
     * [商品页面](shang-pin-ye-mian.md)
     * [购物车开始](gou-wu-che-kai-shi.md)
       * [加入购物车动画](shang-pin-jie-suan-ye-mian.md)
+      * [购买数量传递](gou-mai-shu-liang-chuan-di.md)
   * [过程知识](guo-cheng-zhi-shi.md)
     * 服务器相关
       * [跨域问题](kua-yu-wen-ti.md)
